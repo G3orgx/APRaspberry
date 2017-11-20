@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-# This version uses September 2017 august stretch image, please use this image
+# Script Original https://gist.github.com/Lewiscowles1986/fecd4de0b45b2029c390#file-rpi3-ap-setup-sh
 #
 
 if [ "$EUID" -ne 0 ]
-	then echo "Must be root"
+	then echo "Debes ser root"
 	exit
 fi
 
